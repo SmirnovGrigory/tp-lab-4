@@ -1,6 +1,6 @@
 #include "automata.h"
 
-void main()
+int main()
 {
 	Automata A;
 	cout << A.getState() << endl;
@@ -17,4 +17,5 @@ void main()
 	cout << A.choice("hot water") << endl;
 	A.off();
 	cout << A.getState() << endl;
+	return 0;
 }
